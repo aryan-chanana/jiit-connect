@@ -49,3 +49,37 @@
 git clone https://github.com/aryan-chanana/jiit-connectAlmost.git
 cd jiit-connectAlmost
 flutter pub get
+```
+
+Add Google Maps API key in AndroidManifest.xml
+
+
+## Folder Structure
+
+```
+jiit-connect/
+├── lib/
+│   ├── screens/         # UI Screens
+│   ├── services/        # Auth, DB, Navigation
+│   ├── models/          # Data models
+│   ├── widgets/         # Custom UI Components
+│   └── main.dart
+├── assets/              # App images, logos, etc.
+├── android/             # Android-specific code & configs
+├── ios/                 # iOS-specific code & configs
+└── pubspec.yaml         # Dependencies
+```
+
+## 🤝 Contributions
+Open to contributions from students or developers who want to improve JIIT campus life. Create a PR or open an issue.
+
+## 📜 License
+MIT License. See LICENSE for details.
+
+## 👤 Developed By
+
+```
+Aryan Chanana
+B.Tech CSE – Jaypee Institute of Information Technology
+GitHub: @aryan-chanana
+```
